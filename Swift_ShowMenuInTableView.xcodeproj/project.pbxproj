@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		564A42CD23212D7500D9752D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A42CC23212D7500D9752D /* AppDelegate.swift */; };
-		564A42CF23212D7500D9752D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A42CE23212D7500D9752D /* ViewController.swift */; };
-		564A42D223212D7500D9752D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564A42D023212D7500D9752D /* Main.storyboard */; };
 		564A42D423212D7700D9752D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564A42D323212D7700D9752D /* Assets.xcassets */; };
-		564A42D723212D7700D9752D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564A42D523212D7700D9752D /* LaunchScreen.storyboard */; };
 		564A42E223212D7700D9752D /* Swift_ShowMenuInTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A42E123212D7700D9752D /* Swift_ShowMenuInTableViewTests.swift */; };
 		564A42ED23212D7700D9752D /* Swift_ShowMenuInTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A42EC23212D7700D9752D /* Swift_ShowMenuInTableViewUITests.swift */; };
+		564A42FF23212EAB00D9752D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564A42FE23212EAB00D9752D /* LaunchScreen.storyboard */; };
+		564A430223212EB400D9752D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A430023212EB400D9752D /* ViewController.swift */; };
+		564A430323212EB400D9752D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564A430123212EB400D9752D /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +36,7 @@
 /* Begin PBXFileReference section */
 		564A42C923212D7500D9752D /* Swift_ShowMenuInTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_ShowMenuInTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		564A42CC23212D7500D9752D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		564A42CE23212D7500D9752D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		564A42D123212D7500D9752D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		564A42D323212D7700D9752D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		564A42D623212D7700D9752D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		564A42D823212D7700D9752D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		564A42DD23212D7700D9752D /* Swift_ShowMenuInTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_ShowMenuInTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		564A42E123212D7700D9752D /* Swift_ShowMenuInTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_ShowMenuInTableViewTests.swift; sourceTree = "<group>"; };
@@ -47,6 +44,9 @@
 		564A42E823212D7700D9752D /* Swift_ShowMenuInTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_ShowMenuInTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		564A42EC23212D7700D9752D /* Swift_ShowMenuInTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_ShowMenuInTableViewUITests.swift; sourceTree = "<group>"; };
 		564A42EE23212D7700D9752D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		564A42FE23212EAB00D9752D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		564A430023212EB400D9752D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		564A430123212EB400D9752D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +97,8 @@
 		564A42CB23212D7500D9752D /* Swift_ShowMenuInTableView */ = {
 			isa = PBXGroup;
 			children = (
-				564A42CC23212D7500D9752D /* AppDelegate.swift */,
-				564A42CE23212D7500D9752D /* ViewController.swift */,
-				564A42D023212D7500D9752D /* Main.storyboard */,
-				564A42D323212D7700D9752D /* Assets.xcassets */,
-				564A42D523212D7700D9752D /* LaunchScreen.storyboard */,
-				564A42D823212D7700D9752D /* Info.plist */,
+				564A42FB23212E3300D9752D /* ViewController */,
+				564A42FA23212E2100D9752D /* Other */,
 			);
 			path = Swift_ShowMenuInTableView;
 			sourceTree = "<group>";
@@ -123,6 +119,42 @@
 				564A42EE23212D7700D9752D /* Info.plist */,
 			);
 			path = Swift_ShowMenuInTableViewUITests;
+			sourceTree = "<group>";
+		};
+		564A42FA23212E2100D9752D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				564A42CC23212D7500D9752D /* AppDelegate.swift */,
+				564A42D823212D7700D9752D /* Info.plist */,
+				564A42D323212D7700D9752D /* Assets.xcassets */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		564A42FB23212E3300D9752D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				564A42FD23212E4400D9752D /* Main */,
+				564A42FC23212E3A00D9752D /* Launch */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		564A42FC23212E3A00D9752D /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				564A42FE23212EAB00D9752D /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		564A42FD23212E4400D9752D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				564A430123212EB400D9752D /* Main.storyboard */,
+				564A430023212EB400D9752D /* ViewController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +261,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				564A42D723212D7700D9752D /* LaunchScreen.storyboard in Resources */,
+				564A430323212EB400D9752D /* Main.storyboard in Resources */,
 				564A42D423212D7700D9752D /* Assets.xcassets in Resources */,
-				564A42D223212D7500D9752D /* Main.storyboard in Resources */,
+				564A42FF23212EAB00D9752D /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				564A42CF23212D7500D9752D /* ViewController.swift in Sources */,
+				564A430223212EB400D9752D /* ViewController.swift in Sources */,
 				564A42CD23212D7500D9752D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,25 +323,6 @@
 			targetProxy = 564A42E923212D7700D9752D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		564A42D023212D7500D9752D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				564A42D123212D7500D9752D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		564A42D523212D7700D9752D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				564A42D623212D7700D9752D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		564A42EF23212D7700D9752D /* Debug */ = {
@@ -434,7 +447,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9LY3B67W33;
-				INFOPLIST_FILE = Swift_ShowMenuInTableView/Info.plist;
+				INFOPLIST_FILE = Swift_ShowMenuInTableView/Other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +465,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9LY3B67W33;
-				INFOPLIST_FILE = Swift_ShowMenuInTableView/Info.plist;
+				INFOPLIST_FILE = Swift_ShowMenuInTableView/Other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
