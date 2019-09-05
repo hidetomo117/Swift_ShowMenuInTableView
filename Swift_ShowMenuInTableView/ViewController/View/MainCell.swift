@@ -8,17 +8,33 @@
 
 import UIKit
 
-class MainCell: UITableViewCell {
+final class MainCell: UITableViewCell {
 
+    @IBOutlet private weak var nameLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
+    
+    override func prepareForReuse() {
+        clear()
+    }
+}
 
+extension MainCell {
+    
+    func setup(text: String) {
+        nameLabel.text = text
+    }
+}
+
+private extension MainCell {
+    
+    private func clear() {
+        nameLabel.text = nil
+    }
 }
