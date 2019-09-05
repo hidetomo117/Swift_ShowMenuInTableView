@@ -1,1 +1,3 @@
 # Swift_ShowMenuInTableView
+
+スクロール操作に合わせてメニュービューを表示・非表示にするサンプル
